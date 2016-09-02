@@ -4,4 +4,23 @@
 	width: 100%;
 	height: 350px;
 	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#fondo2{
+	background-image: url(../images/client-bg.jpg);
+	width: 100%;
+	height: 300px;
+	background-size: 100%;
+	background-repeat: no-repeat; 
+}
+.imagen{
+	width: 150px;
+	height: auto;
+}
+.boton{
+	background-color: black;
+	color: white;
+}
+.rosa{
+	color: pink;
 }
