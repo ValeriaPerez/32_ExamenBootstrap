@@ -2,15 +2,91 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Examen Bootstrap</title>
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="css/dist/bootstrap.min.css">
-	<link rel="stylesheet" href="css/dist/font-awesome.min.css">
-	<link rel="stylesheet" href="css/dist/main.css">
+  	<link rel="stylesheet" href="css/bootstrap.css">
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	
+	<div class="container">
+		<div class="row">
+			<nav>
+				<ul class="nav nav-tabs">
+  					<li role="presentation" class="dropdown">
+    					<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      					Dropdown <span class="caret"></span>
+    					</a>
+    					<ul class="dropdown-menu">
+      						<li>Hola</li>
+    					</ul>
+  					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<header>
+		<div class="col-lg-4">
+			<div class="media">
+                <div class="media-left">
+                    <a href="#">
+                    	<span class="glyphicon glyphicon-time"></span>
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h5 class="media-heading">OPENING TIME</h5>
+                    <p class="small"> 9:00AM - 10:OOPM</p>
+                </div>
+            </div>
+		</div>
+		<div class="col-lg-4">
+			<img src="images/logo.png" alt="Logo" class="img-responsive">
+		</div>
+		<div class="col-lg-4">
+			<input class="text" placeholder="Search">
+		</div>
+	</header>
+	<nav>
+		<div class="col-lg-12">
+			<div class="row">
+				<ul class="nav nav-tabs">
+	  				<li role="presentation" class="active"><a href="#">Home</a></li>
+	  				<li role="presentation"><a href="contact.html">CONTACT</a></li>
+	  				<li role="presentation"><a href="#">Messages</a></li>
+				</ul>
+			</div>
+		</div>	
+	</nav>
+	<section>
+		<div class="row">
+			<div class="col-lg-12" id="fondo1">
+				<div><h1>ATUMIN/WINTER LOOKBOOK</h1></div>
+				<p>- 2016 COLECTION -</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="row">
+			<div class="col-lg-5">
+				<img src="images/banner1.jpg" alt="Banner 1" class="img-responsive">
+			</div>
+			<div class="col-lg-7">
+				<img src="images/banner2.jpg" alt="Banner 2" class="img-responsive">
+			</div>
+		</div>
+		<nav>
+			<ul class="pagination pagination-sm">
+				<li>LATEST</li>
+				<li>BESTSELLER</li>
+				<li>SALE</li>
+			</ul>
+		</nav>
+
+	</section>
+	<!--LINKS-->
+	<!-- <script src="js/jquery-1.11.3.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script> -->
 </body>
 </html>
