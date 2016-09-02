@@ -11,23 +11,24 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<div class="container">
+	<div class="container"><!--ABRO MI CONTAINER-->
 		<div class="row">
-			<nav>
+			<nav><!--MI NAV DE IDIOMAS-->
 				<ul class="nav nav-tabs">
   					<li role="presentation" class="dropdown">
     					<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-      					Dropdown <span class="caret"></span>
+      					<img src="images/flag1.png" alt="Lenguajes">Lenguaje<span class="caret"></span>
     					</a>
     					<ul class="dropdown-menu">
-      						<li>Hola</li>
+      						<li><img src="images/flag2.png" alt="Francia">Frances</li>
+      						<li><img src="images/flag1.png" alt="Francia">Ingles</li>
     					</ul>
   					</li>
 				</ul>
 			</nav>
 		</div>
 	</div>
-	<header>
+	<header><!--MI HEADER DE HORARIOS LOGO Y BUSCADOR-->
 		<div class="col-lg-4">
 			<div class="media">
                 <div class="media-left">
@@ -48,18 +49,81 @@
 			<input class="text" placeholder="Search">
 		</div>
 	</header>
-	<nav>
+	<nav><!--NAVEGADOR HOME CONTACTO Y CARRITO-->
 		<div class="col-lg-12">
 			<div class="row">
 				<ul class="nav nav-tabs">
 	  				<li role="presentation" class="active"><a href="#">Home</a></li>
 	  				<li role="presentation"><a href="contact.html">CONTACT</a></li>
-	  				<li role="presentation"><a href="#">My Car</a></li>
+	  				<!--AQUI VA UN Drop-->
+					<li role="presentation" class="dropdown">
+    					<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" class="boton">
+      					My Cart<span class="caret"></span>
+    					</a>
+    					<ul class="dropdown-menu">
+      						<li>
+      							<div class="col-lg-4">
+      								<img src="images/cart-1.jpg" class="imgcar" alt="Cart1">
+      							</div>
+      							<div class="col-lg-8">	
+      								<span class="small">
+      									Aliquam Consequat
+      								</span>
+      								<span>
+      									1X$500	
+      									<button type="button" class="close" data-dismiss="modal">
+      									&times;
+      									</button>
+      								</span>
+      							</div>	
+      						</li>
+      						<li>
+      							<div class="col-lg-4">
+      								<img src="images/cart-2.jpg" class="imgcar" alt="Cart2">
+      							</div>
+      							<div class="col-lg-8">	
+      								<span class="small">
+      									Quisque in Acuc
+      								</span>
+      								<span class="small">
+      									1X$200	
+      									<button type="button" class="close" data-dismiss="modal">
+      									&times;
+      									</button>
+      								</span>
+      							</div>	
+      						</li>
+      						<li>
+      							<div class="col-lg-6">
+      								<p class="small">Sub-Total</p>
+      							</div>
+      							<div class="col-lg-6">
+      								<p class="rosa text-right">$700</p>
+      							</div>
+      						</li>
+      						<li>
+      							<div class="col-lg-6">
+      								<p class="small">Eco-Tax(-2.00)</p>
+      							</div>
+      							<div class="col-lg-6">
+      								<p class="rosa text-right">$70</p>
+      							</div>
+      						</li>
+      						<li>
+      							<div class="col-lg-6">
+      								<p class="small">VAT (20%)</p>
+      							</div>
+      							<div class="col-lg-6">
+      								<p class="rosa text-right">$40</p>
+      							</div>
+      						</li>
+    					</ul>
+  					</li>
 				</ul>
 			</div>
 		</div>	
 	</nav>
-	<section>
+	<section><!--BANNER Y TEXTO-->
 		<div class="row">
 			<div class="col-lg-12" id="fondo1">
 				<div><h1>ATUMIN/WINTER LOOKBOOK</h1></div>
@@ -67,7 +131,7 @@
 			</div>
 		</div>
 	</section>
-	<section>
+	<section><!--DOS FOTOS CON MARGIN-->
 		<div class="row">
 			<div class="col-lg-5">
 				<img src="images/banner1.jpg" alt="Banner 1" class="img-responsive">
@@ -76,7 +140,7 @@
 				<img src="images/banner2.jpg" alt="Banner 2" class="img-responsive">
 			</div>
 		</div>
-		<nav aria-label="Page navigation center-block">
+		<nav aria-label="Page navigation center-block"><!--PRIMER MENU-->
   			<ul class="pagination">
     			<li>
       				<a href="#" aria-label="Previous">
@@ -94,7 +158,7 @@
  			</ul>
 		</nav>
 	</section>
-	<section>
+	<section><!--CUATRO FOTOS-->
 		<div class="row">
 			<div class="col-lg-3">
 				<img src="images/a1.jpg" alt="Foto 1" class="img-responsive">
@@ -111,7 +175,7 @@
 			</div>
 		</div>
 	</section>
-	<section>
+	<section><!--FONDO CON LOGOS CLIENTES-->
 		<div class="row">
 			<div class="col-lg-12" id="fondo2">
 			\	<div class="row">
@@ -119,19 +183,19 @@
 						<img src="images/client1.jpg" alt="Cliente 1" class="img-responsive">
 					</div>
 					<div class="col-lg-2">
-						<img src="images/client1.jpg" alt="Cliente 1" class="img-responsive">
+						<img src="images/client2.jpg" alt="Cliente 1" class="img-responsive">
 					</div>
 					<div class="col-lg-2">
-						<img src="images/client1.jpg" alt="Cliente 1" class="img-responsive">
+						<img src="images/client3.jpg" alt="Cliente 1" class="img-responsive">
 					</div>
 					<div class="col-lg-2">
-						<img src="images/client1.jpg" alt="Cliente 1" class="img-responsive">
+						<img src="images/client4.jpg" alt="Cliente 1" class="img-responsive">
 					</div>
 					<div class="col-lg-2">
-						<img src="images/client1.jpg" alt="Cliente 1" class="img-responsive">
+						<img src="images/client5.jpg" alt="Cliente 1" class="img-responsive">
 					</div>
 					<div class="col-lg-2">
-						<img src="images/client1.jpg" alt="Cliente 1" class="img-responsive">
+						<img src="images/client6.jpg" alt="Cliente 1" class="img-responsive">
 					</div>
 				</div>	
 			</div>	

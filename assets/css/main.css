@@ -13,14 +13,18 @@
 	background-size: 100%;
 	background-repeat: no-repeat; 
 }
-.imagen{
+.imagen{/*Primera seccion de imagenes*/
 	width: 150px;
 	height: auto;
 }
-.boton{
+.boton{/*botones de compra*/
 	background-color: black;
 	color: white;
 }
-.rosa{
+.rosa{/*testo rosa*/
 	color: pink;
+}
+.imgcar{/*imagenes de carrito */
+	width: 50px;
+	height: auto;
 }
